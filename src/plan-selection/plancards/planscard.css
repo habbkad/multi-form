@@ -1,0 +1,19 @@
+.planCon {
+  height: 150px;
+  width: 125px;
+  border-width: 1px;
+  border-color: hsl(229, 24%, 87%);
+  border-radius: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.planCon:hover {
+  border-color: hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import PersonalInfo from "../personal-info-form/personal-info";
+import PlanSelection from "../plan-selection/plan-selection";
 import "./info.css";
 
 const Info = () => {

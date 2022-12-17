@@ -1,0 +1,23 @@
+h1 {
+  font-family: Ubuntu-bold;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.plans-con {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  height: 60px;
+  width: 450px;
+  padding-top: 17px;
+  align-content: center;
+  background-color: hsl(206, 94%, 87%);
+  border-radius: 10px;
+}
