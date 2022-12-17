@@ -14,7 +14,9 @@
   background-color: hsl(229, 24%, 87%);
   height: 100vh;
 }
-
+p {
+  color: hsl(231, 11%, 63%);
+}
 .card {
   display: flex;
   flex-direction: row;
@@ -77,13 +79,16 @@
     margin-left: 10px;
   }
   .content {
-    width: 80%;
+    width: 90%;
     height: 60vh;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     margin-top: 100px;
-    margin-left: 40px;
+    margin-left: 20px;
     border-radius: 10px;
+  }
+  .form-holder {
+    margin-left: 10px;
   }
 
   .content {

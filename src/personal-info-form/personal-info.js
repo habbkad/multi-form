@@ -6,7 +6,9 @@ const PersonalInfo = () => {
       <div class="container mx-auto px-4">
         <h1 className="title">Personal info</h1>
 
-        <p>Please provide your name, email address, and phone number.</p>
+        <p className="info-text">
+          Please provide your name, email address, and phone number.
+        </p>
 
         <div>
           <form>

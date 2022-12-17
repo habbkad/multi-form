@@ -4,7 +4,7 @@
   font-size: 32px;
 }
 
-p {
+.info-text {
   color: hsl(231, 11%, 63%);
   margin-bottom: 40px;
 }
@@ -37,7 +37,7 @@ input {
 
 /* mobile screen */
 @media only screen and (max-width: 375px) {
-  p {
+  .info-text {
     margin-bottom: 20px;
   }
   input {

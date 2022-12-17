@@ -17,3 +17,44 @@
   border-color: hsl(243, 100%, 62%);
   background-color: hsl(206, 94%, 87%);
 }
+.planCon:active {
+  border-color: hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+}
+
+/* mobile design */
+
+@media only screen and (max-width: 375px) {
+  .planCon {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    border-width: 1px;
+    border-color: hsl(229, 24%, 87%);
+    border-radius: 8px;
+    margin-left: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+  }
+
+  .image {
+    margin-bottom: 7px;
+  }
+
+  .planCon:hover {
+    border-color: hsl(243, 100%, 62%);
+    background-color: hsl(206, 94%, 87%);
+  }
+  .planCon:active {
+    border-color: hsl(243, 100%, 62%);
+    background-color: hsl(206, 94%, 87%);
+  }
+  #price {
+    color: hsl(231, 11%, 63%);
+    margin-left: 6px;
+  }
+}

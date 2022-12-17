@@ -1,5 +1,6 @@
 import React from "react";
 import PersonalInfo from "../personal-info-form/personal-info";
+import Planscard from "../plan-selection/plancards/planscard";
 import PlanSelection from "../plan-selection/plan-selection";
 import "./info.css";
 
@@ -17,7 +18,7 @@ const Info = () => {
         </div>
         <div class="content">
           <div className="form-holder">
-            <PersonalInfo />
+            <PlanSelection />
           </div>
         </div>
       </div>
