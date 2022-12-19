@@ -3,6 +3,7 @@ import PersonalInfo from "../personal-info-form/personal-info";
 import Planscard from "../plan-selection/plancards/planscard";
 import PlanSelection from "../plan-selection/plan-selection";
 import "./info.css";
+import AddOn from "../pick-add-ons/add-on";
 
 const Info = () => {
   return (
@@ -18,7 +19,7 @@ const Info = () => {
         </div>
         <div class="content">
           <div className="form-holder">
-            <PlanSelection />
+            <AddOn />
           </div>
         </div>
       </div>
