@@ -1,0 +1,22 @@
+.bill-con {
+  height: 150px;
+  width: 400px;
+  border-radius: 5px;
+  background-color: hsl(206, 94%, 87%);
+  padding: 10px;
+}
+.bill-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.line {
+  height: 1px;
+  width: 350px;
+  background-color: hsl(228, 100%, 84%);
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

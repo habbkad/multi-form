@@ -4,6 +4,7 @@ import Planscard from "../plan-selection/plancards/planscard";
 import PlanSelection from "../plan-selection/plan-selection";
 import "./info.css";
 import AddOn from "../pick-add-ons/add-on";
+import Summary from "../summary/summary";
 
 const Info = () => {
   return (
@@ -19,7 +20,7 @@ const Info = () => {
         </div>
         <div class="content">
           <div className="form-holder">
-            <AddOn />
+            <Summary />
           </div>
         </div>
       </div>
