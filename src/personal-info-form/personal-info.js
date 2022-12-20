@@ -1,6 +1,6 @@
 import React from "react";
 import "./personal-info.css";
-const PersonalInfo = () => {
+const PersonalInfo = ({ changePage }) => {
   return (
     <div>
       <div class="container mx-auto px-4">
@@ -25,7 +25,14 @@ const PersonalInfo = () => {
             <br />
             <input placeholder="e.g. +1 234 567 890" type={"number"} />
             <div className="submit-con">
-              <button id="button">Submit</button>
+              <button
+                id="button"
+                onClick={(e) => {
+                  changePage(2);
+                }}
+              >
+                Submit
+              </button>
             </div>
           </form>
         </div>

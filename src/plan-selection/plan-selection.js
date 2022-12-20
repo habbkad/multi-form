@@ -4,7 +4,7 @@ import Planscard from "./plancards/planscard";
 import arcade from "./assets/icon-arcade.svg";
 import advanced from "./assets/icon-advanced.svg";
 import pro from "./assets/icon-pro.svg";
-const PlanSelection = () => {
+const PlanSelection = ({ changePage }) => {
   const plans = [
     {
       icon: arcade,
@@ -52,6 +52,9 @@ const PlanSelection = () => {
           <button
             type="button"
             class="text-white bg-blue-700 hover:bg-blue-800  font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            onClick={(e) => {
+              changePage(3);
+            }}
           >
             Next Step
           </button>

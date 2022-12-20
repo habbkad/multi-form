@@ -14,12 +14,28 @@
   padding: 20px;
   justify-content: space-between;
 }
+.active-add-ons {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 450px;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+  padding: 20px;
+  justify-content: space-between;
+}
+
 .addon-content {
   display: flex;
   flex-direction: row;
   width: 270px;
   align-items: center;
 }
+
 .addon-text {
   margin-left: 30px;
 }
@@ -28,7 +44,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 460px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 /* mpobile screen */
@@ -48,7 +64,9 @@
     padding: 20px;
     justify-content: space-between;
   }
-
+  .active-add-ons {
+    width: 310px;
+  }
   .button-con {
     display: flex;
     flex-direction: row;

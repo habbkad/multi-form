@@ -46,7 +46,7 @@ input {
     border-color: hsl(229, 24%, 87%);
     border-radius: 5px;
     height: 40px;
-    width: 250px;
+    width: 278px;
     padding-left: 10px;
   }
 
@@ -59,7 +59,7 @@ input {
   }
 
   #button {
-    height: 50px;
+    height: 40px;
     background-color: hsl(243, 100%, 62%);
     color: white;
     width: 150px;

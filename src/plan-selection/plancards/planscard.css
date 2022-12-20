@@ -8,14 +8,25 @@
   padding-top: 10px;
   padding-left: 10px;
 }
+.active-planCon {
+  height: 150px;
+  width: 125px;
+  border-width: 1px;
+  border-color: hsl(243, 100%, 62%);
+  background-color: hsl(206, 94%, 87%);
+  border-radius: 8px;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
 .image {
   margin-bottom: 20px;
 }
 
 .planCon:hover {
-  border-color: hsl(243, 100%, 62%);
-  background-color: hsl(206, 94%, 87%);
+  border-color: hsla(243, 100%, 62%, 0.33);
+  background-color: hsla(206, 94%, 87%, 0.928);
 }
 .planCon:active {
   border-color: hsl(243, 100%, 62%);
@@ -40,7 +51,22 @@
     padding-left: 10px;
     margin-bottom: 15px;
   }
-
+  .active-planCon {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    border-width: 1px;
+    border-radius: 8px;
+    margin-left: 2px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    border-color: hsl(243, 100%, 62%);
+    background-color: hsl(206, 94%, 87%);
+  }
   .image {
     margin-bottom: 7px;
   }

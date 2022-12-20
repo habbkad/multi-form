@@ -44,10 +44,20 @@ p {
 .btn:hover {
   background-color: white;
 }
+.btn-selected {
+  border-width: 1px;
+  border-color: white;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+}
 
 .content {
-  padding-left: 90px;
-  padding-top: 80px;
+  padding-left: 120px;
+  padding-top: 60px;
 }
 /* tabletScreen */
 
@@ -80,6 +90,7 @@ p {
     margin-left: 10px;
     justify-content: center;
   }
+
   .content {
     width: 90%;
     height: 60vh;
@@ -100,6 +111,9 @@ p {
     padding-top: 0px;
   }
   .btn {
+    margin-right: 20px;
+  }
+  .btn-selected {
     margin-right: 20px;
   }
 }
