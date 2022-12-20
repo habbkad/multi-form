@@ -39,7 +39,7 @@ const Summary = () => {
             </div>
           </div>
           <div
-            className="bill-text"
+            className="final-bill-text"
             style={{
               width: 390,
               alignSelf: "center",

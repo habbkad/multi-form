@@ -20,3 +20,41 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.final-bill-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 375px) {
+  .bill-con {
+    height: 150px;
+    width: 315px;
+    border-radius: 5px;
+    background-color: hsl(206, 94%, 87%);
+    padding: 10px;
+  }
+  .bill-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+  .line {
+    height: 1px;
+    width: 250px;
+    background-color: hsl(228, 100%, 84%);
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .final-bill-text {
+    display: flex;
+    flex-direction: row;
+    width: 300px !important;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+}
